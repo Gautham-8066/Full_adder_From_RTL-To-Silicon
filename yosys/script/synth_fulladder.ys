@@ -1,0 +1,7 @@
+read_liberty -lib /home/gautham/Desktop/yosys_projects/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog full_adder_opt.v
+synth -top full_adder_opt
+dfflibmap -liberty /home/gautham/Desktop/yosys_projects/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /home/gautham/Desktop/yosys_projects/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog full_adder_synth.v
+stat

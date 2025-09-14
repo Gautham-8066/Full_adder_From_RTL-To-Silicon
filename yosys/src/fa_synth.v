@@ -6,29 +6,29 @@ module full_adder_opt(a, b, cin, sum, cout);
   wire _0_;
   wire _1_;
   wire _2_;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:2.17-2.18" *)
+  (* src = "full_adder_opt.v:2.17-2.18" *)
   wire _3_;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:3.17-3.18" *)
+  (* src = "full_adder_opt.v:3.17-3.18" *)
   wire _4_;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:4.17-4.20" *)
+  (* src = "full_adder_opt.v:4.17-4.20" *)
   wire _5_;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:6.17-6.21" *)
+  (* src = "full_adder_opt.v:6.17-6.21" *)
   wire _6_;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:5.17-5.20" *)
+  (* src = "full_adder_opt.v:5.17-5.20" *)
   wire _7_;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:2.17-2.18" *)
+  (* src = "full_adder_opt.v:2.17-2.18" *)
   input a;
   wire a;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:3.17-3.18" *)
+  (* src = "full_adder_opt.v:3.17-3.18" *)
   input b;
   wire b;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:4.17-4.20" *)
+  (* src = "full_adder_opt.v:4.17-4.20" *)
   input cin;
   wire cin;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:6.17-6.21" *)
+  (* src = "full_adder_opt.v:6.17-6.21" *)
   output cout;
   wire cout;
-  (* src = "/home/gautham/Desktop/yosys_projects/full_adder_opt.v:5.17-5.20" *)
+  (* src = "full_adder_opt.v:5.17-5.20" *)
   output sum;
   wire sum;
   sky130_fd_sc_hd__xor3_1 _8_ (
